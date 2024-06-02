@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+}
+.post-text {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #000;
+   
+    justify-content: center;
+    /* margin-top:200px;
+    margin-left: 200px; */
+    height: 200px;
+    
+    text-align: center;
+  
+
+}
+.post-text  :focus{
+    outline: none;
+}
+li {
+    cursor: pointer;
+    display: inline;
+    margin: 4px;
+    
+}
+
+
+
+  
+
+.list-items {
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    padd
+}
+
+ #post-background{
+    width: 800px;
+    height:200px;
+}
+.amb{
+    margin-right: 520px;
+    padding: 12px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+.button{
+    padding: 8px;
+    width: 70px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}

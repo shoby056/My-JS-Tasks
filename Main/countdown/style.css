@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(125, 95, 152);
+}
+.container{
+    margin-top: 10%;
+  text-align: center;
+  background-color: rgb(64, 181, 142);
+  width: 50%;
+  margin-left: 25%;
+  height: 250px;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 130px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-inline: 10px;
+}
+h1{
+    padding-top: 10px;
+   font-style: italic;
+   color: rgb(55, 55, 99);
+}

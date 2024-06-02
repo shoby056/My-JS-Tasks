@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+      <div id="post-background">
+        <textarea id="text-area" class="post-text" name="" id="" rows="6" cols="6"></textarea>
+      </div>
+      <div class="list-items">
+      
+      <ul class="shoby">
+        <li ><input type="range" onchange="changeFontSize()"></li>
+        <li> <input type="color" onchange="changeColor()" name="color"> </li>
+        <li onclick="changeStyle()">B</li>
+        <li onclick="changeStyle()">I</li>
+        <li onclick="changeStyle()">U</li>
+      </ul>
+      <ul class="amb" >
+        <li> <img width="42" onclick="setBackground()" src="./pics/ai-generated-grunge-detailed-texture-background-with-scratches-photo.jpg" alt="">  </li>
+        <li> <img width="50" onclick="setBackground()"  src="./pics/download.jpg" alt=""></li>
+        <li> <img width="45" onclick="setBackground()"   src="./pics/grunge-blue-background-with-space-for-your-text-or-image-blue-jeans-background-generative-ai-photo.jpg" alt=""></li>
+        <li><img width="45" onclick="setBackground()"   src="./pics/images.jpg" alt=""> </li>
+      </ul>
+
+      
+
+
+
+    </div>
+    <button class="button">Post</button>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

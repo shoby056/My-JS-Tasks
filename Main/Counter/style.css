@@ -1,0 +1,101 @@
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+}
+body{
+    background: rgb(173, 186, 109);
+    background: linear-gradient(
+        90deg,
+        rgb(212, 137, 118) 0%,
+        rgb(95, 171, 78)100%
+
+    );
+}
+ .counter{
+    font-size: 38px;
+    
+   
+   color:rgb(81, 0, 255);
+ 
+   justify-content: center;
+   text-align: center; 
+   display: flex;
+   box-shadow: 2px 2px goldenrod;
+   font-family: sans-serif;
+   font-weight: bold;
+
+
+   
+   
+   
+   
+    
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  
+}
+.card{
+    background-color: #fff;
+    text-align: centre;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h1{
+    margin-bottom: 15px;
+    font-size: 70px;
+ 
+}
+
+.card-button button{
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 4px;
+    color:blue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button#decrement{
+    background-color: rgb(138, 165, 211);
+}
+
+
+button#decrement:hover{
+    background-color: aqua;
+    color: black;
+
+}
+
+button#increment{
+    background-color: rgb(113, 192, 79);
+}
+button#increment:hover{
+    background-color: lawngreen;
+    color: black;
+
+
+}
+button#reset{
+    background-color: rgb(188, 192, 79);
+}
+button#reset:hover{
+    background-color: purple;
+    color: black;
+
+}
+
+
